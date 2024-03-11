@@ -18,9 +18,9 @@ Quality requirements for filtering rules:
 - Unblocking rules must be as specific as possible to avoid unblocking anything unnecessary
 - JavaScript rules should be used as sparingly as possible and only if blocking ads is impossible without them
 
-## Ad blocking filters
+## Filtres de blocage d'annonces
 
-### Terminology
+### Terminologie
 
 **Ad blocker** is a software or hardware tool designed to filter, hide, or block advertisements and other elements on web pages. Ad blockers are created to improve user experience, reduce page load times, decrease internet traffic consumption, block ads, enhance privacy while browsing websites and using applications, and block annoying elements.
 
@@ -34,7 +34,7 @@ A **filter** (or a **filter list**) is a set of filtering rules designed to filt
 - Implementing alternative advertising in response to ad blocker usage: sites introduce alternative advertising when ad blockers are detected
 - Paywall: a method of content monetization where content is partially or fully hidden from users, with a message prompting them to purchase a subscription for access
 
-### Filters
+### Filtres
 
 AdGuard ad-blocking filters include:
 
@@ -42,7 +42,7 @@ AdGuard ad-blocking filters include:
 - AdGuard Mobile Ads filter
 - Regional filters divided by language principle — Chinese, Dutch, French, German, Japanese, Russian, Spanish/Portuguese, Turkish, and Ukrainian
 
-### The purpose of these filters
+### L'objectif de ces filtres
 
 - **Base filter** is designed to block ads on English-language websites and those for which there is no separate filter. It also contains general filtering rules that apply to all sites regardless of language
 - **Mobile Ads filter** blocks advertisements on mobile versions of websites and within mobile applications. There is no segmentation based on language
@@ -84,7 +84,7 @@ The goal of ad-blocking filters is to block all types of advertising on websites
 
 ## Tracking protection filters
 
-### Terminology
+### Terminologie
 
 **Tracking** — the process of monitoring and collecting data about users and their interactions with websites and applications for marketing purposes, as well as to obtain telemetry about the functioning of websites or applications for the purpose of analyzing their operation. This process includes tracking visited pages, time spent, interaction with website elements (e.g., clicks, form submissions), and other metrics. It allows website and application owners to better understand user behavior, optimize functionality, and adapt marketing strategies. Tracking is also used to monitor performance, usage patterns, and identify issues, providing developers with the necessary data to improve the stability and quality of the website or application. Even if the data obtained cannot reveal a person’s identity, such actions are still considered tracking.
 
@@ -101,7 +101,7 @@ AdGuard tracking protection filters include:
 - AdGuard Tracking Protection filter
 - AdGuard URL Tracking filter
 
-### The purpose of these filters
+### L'objectif de ces filtres
 
 **Tracking Protection filter** is designed to block trackers that collect users’ personal data and to improve users’ privacy.
 
@@ -128,7 +128,7 @@ Tracking protection filters should not block a tracker if blocking would disrupt
 
 Annoyance filters are designed to improve the usability of websites by blocking elements on pages that are not advertisements but distract from and interfere with site interaction or content consumption — such as various modal windows and interactive forms, cookie consent notifications and requests, mobile app banners, and various widgets.
 
-### Terminology
+### Terminologie
 
 **Cookie notice** — a form that describes the types and use of cookies on a website. A cookie notice appears when a user visits the website, informing the user that the website uses cookies or other tracking technologies to collect and use personal information, and explaining why and with whom the information collected is shared.
 
@@ -149,7 +149,7 @@ For better customization, annoyance filters are divided by their purpose:
 - AdGuard Other Annoyances filter
 - AdGuard Annoyances filter — a combined filter that includes all 5 specialized annoyance filters
 
-### The purpose of these filters
+### L'objectif de ces filtres
 
 #### AdGuard Cookie Notices filter
 
@@ -230,7 +230,7 @@ AdGuard Social Media filters include:
 
 - AdGuard Social Media filter
 
-### The purpose of these filters
+### L'objectif de ces filtres
 
 This filter will block social media widgets on third-party websites, such as “Like” and “Share” buttons, group widgets, recommendations, and similar widgets.
 
@@ -242,7 +242,7 @@ Widgets that are part of the website’s functionality or content, such as comme
 
 This group contains filters that are not essential for blocking advertisements.
 
-### Terminology
+### Terminologie
 
 **Contextual advertising** is a type of internet advertising where the advertisement is displayed based on the content, selected audience, location, time, or other context of internet pages.
 
@@ -258,7 +258,7 @@ For more details on these types of advertising, refer to the [article on Search 
 - AdGuard DNS filter
 - AdGuard Experimental filter
 
-### The purpose of these filters
+### L'objectif de ces filtres
 
 #### Filter unblocking search ads and self-promotion
 
